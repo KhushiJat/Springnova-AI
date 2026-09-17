@@ -114,7 +114,7 @@ The platform integrates multiple AI-driven utility modules structured across an 
 * Ollama (running locally with your desired model installed)
 
 ### Frontend Setup
-1. Navigate to the frontend directory (`spring-AI-Frontend`).
+1. Navigate to the frontend directory (`frontend`).
 2. Install project dependencies:
    ```bash
    npm install
@@ -123,7 +123,7 @@ The platform integrates multiple AI-driven utility modules structured across an 
    npm start
 
 ### Backend Setup
-1. Navigate to the backend directory (`SpringAIBackend`).
+1. Navigate to the backend directory (`backend`).
 2. Configure your MYSQL database parameters and server configs inside:
      src/main/resources/application.properties.
 3. Build and run the Spring Boot application using Maven:
