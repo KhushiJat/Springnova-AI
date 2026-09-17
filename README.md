@@ -75,7 +75,7 @@ The platform integrates multiple AI-driven utility modules structured across an 
 * **`src/`** : Contains core styling and entry files including `App.js`, `App.css`, `index.js`, and `index.css`.
 * **`SpringnovaAI_IMG/`** : Asset directory storing high-resolution application interface screenshots.
 
-### Backend Architecture (`SpringAIBackend`)
+### Backend Architecture (`backend`)
 * **`com.ai.SpringAIBackend.config`**: Core configuration classes for security and web mappings.
 * **`com.ai.SpringAIBackend.controller`**: REST controllers exposing endpoints for generative AI tasks, weather forecasting, map tracking, and user authentication.
 * **`com.ai.SpringAIBackend.model`**: JPA Entities and Data Transfer Objects (DTOs) mapping internal database structures.
