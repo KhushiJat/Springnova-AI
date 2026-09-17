@@ -69,10 +69,11 @@ The platform integrates multiple AI-driven utility modules structured across an 
 
 ## Project Structure & Architecture
 
-### Frontend Architecture (`spring-AI-Frontend`)
-* **`src/components/`**: Modular UI components covering the interactive chat interface, image generator, recipe generator, weather forecast dashboard, live map tracker, activity history, and core layout routers.
-* **`src/store/`**: State management containers handling application actions and reducers.
-* **`src/SpringnovaAI_IMG/`**: Asset directory storing high-resolution application interface screenshots (`Signin.png`, `Dashboard1.png`, `Dashboard2.png`, `Springnova1.png` to `Springnova6.png`).
+### Frontend Architecture (frontend)
+
+* **`src/components/`** : Modular UI components covering the interactive chat interface (`ChatComponent.js`), audio translation (`AudioTranslator.jsx`), image generation (`ImageGenerator.js`), recipe generator (`RecipeGenerator.js`), weather view, live map tracking (`MapView.jsx`), activity history (`HistoryView.js`), and core layout routers (`SidebarLayout.jsx`).
+* **`src/`** : Contains core styling and entry files including `App.js`, `App.css`, `index.js`, and `index.css`.
+* **`SpringnovaAI_IMG/`** : Asset directory storing high-resolution application interface screenshots.
 
 ### Backend Architecture (`SpringAIBackend`)
 * **`com.ai.SpringAIBackend.config`**: Core configuration classes for security and web mappings.
