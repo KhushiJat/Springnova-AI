@@ -7,7 +7,7 @@ A robust, full-stack enterprise-grade multimodal AI application built with a **R
 ## Application Overview & Authentication
 
 <div align="center">
-  <img src="./spring-AI-Frontend/src/SpringnovaAI_IMG/Signin.png" alt="Sign In View" width="700">
+  <img src="./SpringnovaAI_IMG/Signin.png" alt="Sign In View" width="700">
   <p><em>Secure user authentication portal for accessing the platform workspace.</em></p>
 </div>
 
