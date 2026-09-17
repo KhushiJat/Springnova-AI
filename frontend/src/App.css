@@ -1,0 +1,367 @@
+/* ===========================
+   Global Reset & Auth Styles
+   =========================== */
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #171717 0%, #111827 100%);
+    color: #ececec;
+    font-family: 'Söhne', ui-sans-serif, system-ui, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.auth-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #171717 0%, #111827 100%);
+}
+
+.auth-card {
+    background-color: #171717;
+    border: 1px solid #2f2f2f;
+    padding: 40px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.auth-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.auth-app-title {
+    fontSize: 22px;
+    font-weight: 600;
+    color: #ececec;
+    margin: 0;
+}
+
+.auth-subtitle {
+    font-size: 14px;
+    color: #8e8e8e;
+    margin-bottom: 24px;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.label {
+    font-size: 13px;
+    color: #b4b4b4;
+    font-weight: 500;
+}
+
+.input-field {
+    background-color: #212121;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 12px;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+}
+
+.login-btn {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* ===========================
+   Main App Layout & Navbar
+   =========================== */
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(135deg, #171717 0%, #111827 100%);
+}
+
+.navbar {
+    height: 56px;
+    background-color: #171717;
+    border-bottom: 1px solid #2f2f2f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: #ececec;
+    z-index: 10;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brand-text {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-badge {
+    font-size: 13px;
+    color: #8e8e8e;
+    display: flex;
+    align-items: center;
+}
+
+.logout-btn {
+    background-color: transparent;
+    border: 1px solid #333;
+    color: #ececec;
+    padding: 6px 14px;
+    borderRadius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.layout-body {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.sidebar {
+    background-color: #171717;
+    border-right: 1px solid #2f2f2f;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 6px;
+    zIndex: 5;
+    transition: width 0.2s ease;
+}
+
+.menu-btn-below {
+    background-color: #212121;
+    border: 1px solid #333;
+    color: #ececec;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 6px;
+    width: 100%;
+    text-align: left;
+}
+
+.sidebar-divider {
+    height: 1px;
+    background-color: #2f2f2f;
+    margin: 6px 0;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 14px;
+    color: #ececec;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: transparent;
+}
+
+.content-area {
+    padding: 30px;
+    flex: 1;
+    overflow-y: auto;
+    background-color: transparent;
+}
+
+/* ===========================
+   Shared Component Elements
+   =========================== */
+.component-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-card {
+    background-color: #212121;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.textarea-field, .text-input-field {
+    background-color: #2f2f2f;
+    border: 1px solid #424242;
+    border-radius: 8px;
+    padding: 12px;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    font-family: inherit;
+}
+
+.primary-btn {
+    align-self: flex-end;
+    background-color: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    fontWeight: 500;
+    cursor: pointer;
+}
+
+.output-card {
+    background-color: #2f2f2f;
+    border: 1px solid #424242;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.output-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+.output-text {
+    font-size: 15px;
+    color: #fff;
+    margin-top: 8px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
+
+/* ===========================
+   Map View Styles
+   =========================== */
+.map-container {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 30px;
+    color: #ececec;
+    box-sizing: border-box;
+}
+
+.map-control-card {
+    background-color: #212121;
+    border: 1px solid #333;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.gps-btn {
+    flex: 1;
+    background-color: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.route-form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.map-input {
+    flex: 1;
+    min-width: 200px;
+    background-color: #171717;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 12px 14px;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+}
+
+.route-btn {
+    background-color: #10b981;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 0 20px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.map-frame-wrapper {
+    background-color: #212121;
+    border: 1px solid #333;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
