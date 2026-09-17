@@ -18,12 +18,12 @@ A robust, full-stack enterprise-grade multimodal AI application built with a **R
 The platform integrates multiple AI-driven utility modules structured across an intuitive sidebar navigation layout:
 
 <div align="center">
-  <img src="./spring-AI-Frontend/src/SpringnovaAI_IMG/Dashboard1.png" alt="Main AI Dashboard" width="700">
+  <img src="./SpringnovaAI_IMG/Dashboard1.png" alt="Main AI Dashboard" width="700">
   <p><em>Main interactive dashboard providing access to conversational AI and prompt management.</em></p>
 </div>
 
 <div align="center">
-  <img src="./spring-AI-Frontend/src/SpringnovaAI_IMG/Dashboard2.png" alt="Secondary Dashboard View" width="700">
+  <img src="./SpringnovaAI_IMG/Dashboard2.png" alt="Secondary Dashboard View" width="700">
   <p><em>Expanded sidebar view showing the full suite of specialized AI utilities.</em></p>
 </div>
 
@@ -32,17 +32,17 @@ The platform integrates multiple AI-driven utility modules structured across an 
 ## Conversational AI & Generative Features
 
 <div align="center">
-  <img src="./spring-AI-Frontend/src/SpringnovaAI_IMG/Springnova1.png" alt="Ask AI Module" width="700">
+  <img src="./SpringnovaAI_IMG/Springnova1.png" alt="Ask AI Module" width="700">
   <p><em>Conversational AI interface handling complex multi-paragraph responses and queries.</em></p>
 </div>
 
 <div align="center">
-  <img src="./spring-AI-Frontend/src/SpringnovaAI_IMG/Springnova2.png" alt="Image Generator" width="700">
+  <img src="./SpringnovaAI_IMG/Springnova2.png" alt="Image Generator" width="700">
   <p><em>AI Image Generator translating text descriptions into high-resolution visual artwork.</em></p>
 </div>
 
 <div align="center">
-  <img src="./spring-AI-Frontend/src/SpringnovaAI_IMG/Springnova3.png" alt="Recipe Generator" width="700">
+  <img src="./SpringnovaAI_IMG/Springnova3.png" alt="Recipe Generator" width="700">
   <p><em>Smart Recipe Generator outputting customized ingredient listings and step-by-step cooking instructions.</em></p>
 </div>
 
@@ -51,17 +51,17 @@ The platform integrates multiple AI-driven utility modules structured across an 
 ## Utility Dashboards: Weather, Maps & Activity History
 
 <div align="center">
-  <img src="./spring-AI-Frontend/src/SpringnovaAI_IMG/Springnova4.png" alt="Weather Forecast Dashboard" width="700">
+  <img src="./SpringnovaAI_IMG/Springnova4.png" alt="Weather Forecast Dashboard" width="700">
   <p><em>Live weather tracking dashboard displaying current meteorological updates and conditions.</em></p>
 </div>
 
 <div align="center">
-  <img src="./spring-AI-Frontend/src/SpringnovaAI_IMG/Springnova5.png" alt="Live Map Tracker" width="700">
+  <img src="./SpringnovaAI_IMG/Springnova5.png" alt="Live Map Tracker" width="700">
   <p><em>Interactive Live Maps and Tracker providing route mapping, coordinates, and navigation directions.</em></p>
 </div>
 
 <div align="center">
-  <img src="./spring-AI-Frontend/src/SpringnovaAI_IMG/Springnova6.png" alt="Activity History" width="700">
+  <img src="./SpringnovaAI_IMG/Springnova6.png" alt="Activity History" width="700">
   <p><em>Activity History logging past prompts, model inputs, and generated AI responses with timestamps.</em></p>
 </div>
 
